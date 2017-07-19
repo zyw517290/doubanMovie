@@ -1,0 +1,17 @@
+<template name="movie">
+  <block wx:for='{{moviesList}}'>
+    <view class="movie" bindtap="detail" id="{{item.id}}">
+      <view class="movie-pic">
+        <image src="{{item.images.medium}}" class="movie-pic-img" mode="aspectFit"></image>
+      </view>
+      <view class="movie-info">
+        <view class="movie-info-center">
+            <text>
+              {{item.text}}
+          </text> 
+        </view>          
+      </view>
+    </view>
+    <view class="movie-hr"></view>
+  </block>
+</template>

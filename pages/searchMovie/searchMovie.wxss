@@ -1,0 +1,35 @@
+@import "../movieHot/movieHot.wxss";
+.movieApp{
+  background-color:#3a3a3a;
+}
+.movieApp .content-search{
+  display:flex;
+  flex-direction: row;
+  padding-left:20px;
+  padding-top:20px;
+  font-size:14px;
+}
+.movieApp .content-search button{
+  height:60rpx;
+  line-height:60rpx;
+  margin-left:10px;
+  border-left:0px;
+  background-color:#DD5E0E;
+  color:#FFF;
+  text-shadow:black 0 1px 0;
+}
+.input{
+  width:60%;
+  border:1px solid #ccc;
+  color:#000;
+  background-color:#fff;
+}
+.inputShow{
+  padding-left:20px;
+  color:#fff;
+  text-align: center;
+  font-size:12px;
+}
+.btnClick{
+  background-color:palegoldenrod;
+}

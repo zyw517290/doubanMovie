@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/movieHot/movieHot",
+    "pages/movieGrood/movieGrood",
+    "pages/searchMovie/searchMovie",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "selectedColor": "green",
+    "backgroundColor": "#2b2b2b",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/movieHot/movieHot",
+        "text": "影院热映",
+        "iconPath": "image/dy-1.png",
+        "selectedIconPath": "image/dy.png"
+      },
+      {
+        "pagePath": "pages/movieGrood/movieGrood",
+        "text": "电影推荐",
+        "iconPath": "image/tj-1.png",
+        "selectedIconPath": "image/tj.png"
+      },
+      {
+        "pagePath": "pages/searchMovie/searchMovie",
+        "text": "查询电影",
+        "iconPath": "image/search-1.png",
+        "selectedIconPath": "image/search.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2b2b2b",
+    "navigationBarTitleText": "半夏陌殇电影APP",
+    "navigationBarTextStyle": "#FFF"
+  }
+}

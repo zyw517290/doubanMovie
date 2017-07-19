@@ -1,0 +1,8 @@
+<view class="movieApp">
+  <view class="page-header">
+    <text class="page-header-text">{{title}}</text>
+  </view>
+  <import src="../template/template" />
+  <template is="movie" data="{{moviesList}}"></template>
+</view>
+

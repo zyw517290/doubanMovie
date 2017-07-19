@@ -1,0 +1,20 @@
+
+<view class="movieApp">
+  <view class="page-header">
+    <text class="page-header-text">{{title}}</text>
+  </view>
+  <swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+       <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+     </block>
+  </swiper>
+
+   <import src="../template/template" /> 
+   <template is="movie" data="{{moviesList}}"></template>  
+
+  
+</view>
+
